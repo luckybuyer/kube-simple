@@ -1,0 +1,20 @@
+{
+    "CN": "kube-master",
+    "hosts": [
+      "kubernetes",
+      "kubernetes.default",
+      "kubernetes.default.svc",
+      "kubernetes.default.svc.cluster.local",
+      "*.luckybuyer.net",
+      "*.*.luckybuyer.net"
+    ],
+    "key": {
+        "algo": "rsa",
+        "size": 2048
+    },
+    "names": [
+        {
+            "OU": "kube-master"
+        }
+    ]
+}
