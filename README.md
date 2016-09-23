@@ -12,7 +12,7 @@ Goals:
 
 The project is divided into 2 parts:
 - `modules`: building blocks for a cluster, like CoreOS cloud-config, instance profiles, security groups, etc.
-- `integrated`: a list of common VPC architectures, from simple single-public-subnet to multi-az-public-plus-private-subnets, etc.
+- `integrated`: a list of common architectures, from simple single-public-subnet to multi-az-public-plus-private-subnets, etc.
 
 To get the highest level of customization, use `modules` to make rolling out your own solutions easier.
 
