@@ -18,6 +18,7 @@ variable "etcd_endpoints" {
 }
 variable "controller_ip" {
   default = "10.0.0.50"
+  description = "This must be used when actually launching the controller"
 }
 variable "pod_cidr" {
   default = "10.2.0.0/16"
