@@ -1,0 +1,3 @@
+output "controller_ip" {
+
+}
